@@ -1,0 +1,56 @@
+.accordian {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgb(14, 112, 224);
+  border-radius: 10px;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #080101;
+}
+
+.title span {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.title:hover {
+  background-color: #f2f2f2;
+}
+
+.question {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.answer {
+  padding: 10px;
+  background-color: #fff;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
